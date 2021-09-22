@@ -27,18 +27,39 @@
             background-color: bisque;
             font-family: 'Ubuntu', sans-serif;
         }
+        
+        .edu .projects {
+            margin-left: 40px;
+        }
+        
+        @media only screen and (max-width: 600px) {
+            body {
+                background-color: lightblue;
+                margin: 0;
+                margin-left: 10px;
+            }
+            .keyskills {
+                display: none;
+            }
+            .basic {
+                text-align: left !important;
+            }
+            .edu .projects {
+                margin-left: 5px !important;
+            }
+        }
     </style>
 </head>
 
 <body>
     <div class="container bg-white pt-5" style="padding-bottom: 60px;">
-        <div class="text-center">
+        <div class="main text-center">
             <h3>Mrunmai Dahare</h3>
             <h5>Passionate| Fast learner| Innovator</h5>
             <hr>
         </div>
         <div class="row">
-            <div class="col-sm-4 text-right border-right">
+            <div class="basic col-sm-4 text-right border-right">
                 <h5>Basic Information</h5>
                 <p><b>Contact:</b><br><i class="fa fa-map-marker" aria-hidden="true"></i> <a href="https://goo.gl/maps/z7oZjF9CGFGCNJ367" class="text-info"> Nagpur, Maharashtra</a>
                     <br><i class="fa fa-phone" aria-hidden="true"></i><a href="tel:+918208319285" class="text-info"> +91 820-831-9285</a> <br>
@@ -46,15 +67,17 @@
                 </p>
                 <br>
                 <br>
-                <p><b>Key Skills</b>
-                    <ul style="list-style-type: none; margin: 0; padding: 0;">
-                        <li>Quick Learner</li>
-                        <li>Good communication skills</li>
-                        <li>Good Analytical skills</li>
-                        <li>Data Analytic</li>
-                        <li>Leadership and Project management</li>
-                    </ul>
-                </p>
+                <div class="keyskills">
+                    <p><b>Key Skills</b>
+                        <ul style="list-style-type: none; margin: 0; padding: 0;">
+                            <li>Quick Learner</li>
+                            <li>Good communication skills</li>
+                            <li>Good Analytical skills</li>
+                            <li>Data Analytic</li>
+                            <li>Leadership and Project management</li>
+                        </ul>
+                    </p>
+                </div>
             </div>
             <div class="col-sm-8">
                 <h5>Objective</h5>
@@ -80,7 +103,7 @@
             </div>
             <div class="container">
                 <hr>
-                <div class="ml-4">
+                <div class="edu">
                     <h5 class="pl-4">Education</h5>
                     <div class="ml-4 mr-4">
                         <dl>
@@ -100,7 +123,7 @@
                 <hr>
 
 
-                <div class="container ml-4">
+                <div class="projects container">
                     <h5>Projects</h5>
                     <div class="ml-2 mr-2">
                         <dl>
